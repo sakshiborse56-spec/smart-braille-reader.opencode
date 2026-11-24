@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Braille Reader</title>
+    <script>
+      // GitHub Pages serves this page for unknown paths. Send visitors back to
+      // the application root while preserving any hash route already present.
+      (function () {
+        var base = window.location.pathname.replace(/\/404\.html$/, '/')
+        window.location.replace(base + window.location.hash)
+      })()
+    </script>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Redirecting to <a href="./">Smart Braille Reader</a>…</p>
+  </body>
+</html>
